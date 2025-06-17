@@ -21,19 +21,19 @@ return (
             onSubmit={(e)=>{
                 submitHandler(e)
             }}
-            class="flex flex-col items-center justify-center" >
+            className="flex flex-col items-center justify-center" >
                 <input value={email}
                 onChange={(e)=>{
                     setEmail(e.target.value)
                 }} 
-                required class="border-2 border-emerald-600 py-3 px-5 rounded-full text-xl outline-none bg-transparent placeholder:text-gray-400" type="email" placeholder='Enter your email' />
+                required className="border-2 border-emerald-600 py-3 px-5 rounded-full text-xl outline-none bg-transparent placeholder:text-gray-400" type="email" placeholder='Enter your email' />
 
                 <input value={password}
                 onChange={(e)=>{
                     setPassword(e.target.value)
                 }} 
-                required class="border-2 border-emerald-600 py-3 px-5 rounded-full text-xl outline-none bg-transparent placeholder:text-gray-400 mt-3" type="password" placeholder='Enter your password' />
-                <button class=" bg-emerald-600 py-3 px-5 rounded-full text-xl outline-none  placeholder:text-white mt-2 ">Log In</button>
+                required className="border-2 border-emerald-600 py-3 px-5 rounded-full text-xl outline-none bg-transparent placeholder:text-gray-400 mt-3" type="password" placeholder='Enter your password' />
+                <button className="bg-emerald-600 py-3 px-5 rounded-full text-xl outline-none placeholder:text-white mt-2">Log In</button>
             </form>
         </div>
     </div>
